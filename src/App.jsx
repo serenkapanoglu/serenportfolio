@@ -220,7 +220,7 @@ className='w-20 h-20 rounded-full' />
   
 
  <div className='flex flex-col sm:flex-row gap-10 mt-11'>
-  <button onClick={() => window.open('https://drive.google.com/file/d/1TRkTn0268UroOh1D-05ySgefThnf1Car/view?usp=sharing', '_blank')} className="px-8 shadow-gray-500 shadow-md py-5 mt-10 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 mr-4">
+  <button onClick={() => window.open('https://drive.google.com/file/d/10fQqr2Yn6ay4jqQ7LQPpSSg9NyPp7zW-/view?usp=sharing', '_blank')} className="px-8 shadow-gray-500 shadow-md py-5 mt-10 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 mr-4">
     Download Resume
 </button> 
   
