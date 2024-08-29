@@ -220,7 +220,7 @@ className='w-20 h-20 rounded-full' />
   
 
  <div className='flex flex-col sm:flex-row gap-10 mt-11'>
-  <button onClick={() => window.open('https://drive.google.com/file/d/10fQqr2Yn6ay4jqQ7LQPpSSg9NyPp7zW-/view?usp=sharing', '_blank')} className="px-8 shadow-gray-500 shadow-md py-5 mt-10 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 mr-4">
+  <button onClick={() => window.open('https://drive.google.com/file/d/1jruf5Gczg7LOF7oT-xU8P9dVYJoskXLx/view?usp=sharing', '_blank')} className="px-8 shadow-gray-500 shadow-md py-5 mt-10 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 mr-4">
     Download Resume
 </button> 
   
@@ -527,7 +527,6 @@ Checkout github
 
 <hr></hr>
 <footer style={{ textAlign: 'center' }} className='text-sm text-white mt-4'>
-      <div><i>@Copyright | 2024</i></div>
       <div className='mt-2'><i>Designed by Gulseren Kapanoglu</i></div>
       <div className='flex items-center justify-center m-2'>
         <CiMail />
