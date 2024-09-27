@@ -210,19 +210,19 @@ className='w-20 h-20 rounded-full' />
   <h2 className="font-bold text-4xl mt-1 gradiant-text">full stack developer</h2>
   </div>
   <div>
-  <p className="mt-4 text-gray-400">
-  A passionate Full Stack Junior Web Developer with a degree in Computer Science and a software engineering bootcamp under my belt. 
-  </p>
-  <p className="mt-4 text-gray-400">Eager to learn and always up for a challenge, I bring a strong foundation in both front-end and back-end technologies.</p>
-  <p className="mt-4 text-gray-400">💻 Actively seeking opportunities to contribute my skills, I'm dedicated to crafting clean and efficient code that delivers exceptional user experiences. Explore my portfolio and let's connect to discuss how I can bring your digital ideas to life!</p>
-  <p className="mt-4 text-gray-400">📧 Open to exciting opportunities—let's collaborate!</p>
+  
+  <p className="mt-4 text-gray-400">I'm a passionate front-end developer and software engineer with over 3 years of experience building high-quality, scalable web applications.</p>
+  <p className='mt-4 text-gray-400'> With a strong foundation in both front-end and back-end technologies, I specialize in creating dynamic, user-friendly interfaces and optimizing system performance to enhance user engagement.</p>
 
+<p className='mt-4 text-gray-400'>I have extensive experience working with modern technologies such as React, JavaScript, TypeScript, Python, and Node.js. I’m skilled in developing efficient and maintainable code, solving complex technical challenges, and working collaboratively with cross-functional teams. My work focuses on delivering seamless digital experiences, increasing operational efficiency, and ensuring scalability and security across platforms.</p>
+
+<p className='mt-4 text-gray-400'>Over the years, I've contributed to a range of projects, from designing robust login systems and enhancing API performance to analyzing user behavior and implementing features that drive engagement. My expertise in responsive web design, performance optimization, and testing ensures that every project I work on is reliable, efficient, and user-centric.</p>
+ 
+<p className='mt-4 text-gray-400'>Feel free to explore my portfolio to see how I transform ideas into functional, engaging, and high-performing applications.</p>
   
 
- <div className='flex flex-col sm:flex-row gap-10 mt-11'>
-  <button onClick={() => window.open('https://drive.google.com/file/d/1jruf5Gczg7LOF7oT-xU8P9dVYJoskXLx/view?usp=sharing', '_blank')} className="px-8 shadow-gray-500 shadow-md py-5 mt-10 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 mr-4">
-    Download Resume
-</button> 
+ <div className='flex flex-col justify-center sm:flex-row gap-12 mt-11 ml-20'>
+  
   
 
 
@@ -233,8 +233,8 @@ className='w-20 h-20 rounded-full' />
 
 
 
-  <button onClick={() => window.open('https://github.com/serenkapanoglu', '_blank')} className="px-8 shadow-gray-500 shadow-md py-5 mt-10 flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-10 py-6 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900 rounded-full">
-    <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <button onClick={() => window.open('https://github.com/serenkapanoglu', '_blank')} className="px-8 shadow-gray-500 shadow-md py-5 mt-10 flex gap-3 cursor-pointer text-white  font-semibold bg-gradient-to-r from-gray-800 to-black px-10 py-6 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900 rounded-full">
+    <svg viewBox="0 0 24 24" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
       <path fill="#FFFFFF" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207
         11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729
         1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931
@@ -272,11 +272,13 @@ className='w-20 h-20 rounded-full' />
 
 
   <div className="relative">
-  <img src={Profile2}  className=" relative z-10 mt-10 ml-0 w-[250px] m-auto sm:w-[300px] rounded-full mt-14" />
-  <h1 className='mt-10'>Look Morty, this girl is doing websites.</h1>
-  <p>She's doing websites, Morty.</p>
-  <p>Can you believe that?</p>
   
+  <img src={Profile2}  className=" relative z-10 mt-10 ml-0 w-[250px] m-auto sm:w-[300px] rounded-full mt-14" />
+ <h1 className='mt-10'>Look Morty, this girl is doing websites.</h1>
+ <p>She's doing websites, Morty.</p>
+ <p>Can you believe that?</p>
+
+
   </div>
   </div>
   </div>
@@ -430,7 +432,7 @@ Checkout github
   </section>
   
 
-  <section className="py-8" id="aboutme">
+  {/*<section className="py-8" id="aboutme">
           <div className="container m-auto px-4 sm:py-12">
           <h2 style={{ textAlign:'center', fontSize:'42px'}} className='text-2xl font-semibold'>About Me</h2>
             <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white">
@@ -498,7 +500,7 @@ Checkout github
           </div>
         </section>
 
-
+                */}
         <section className="bg-dark_primary text-white" id='contactme'>
   {/* Contact Me Section */}
   <div>
